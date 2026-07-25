@@ -74,7 +74,7 @@ message+=`• ${item.name} - ₹${item.price}%0A`;
 message+=`%0A💰 Total : ₹${total}`;
 
 const ownerNumber="919999999999";
-
+addStamp();
 window.open(`https://wa.me/${ownerNumber}?text=${message}`,"_blank");
 
 });
