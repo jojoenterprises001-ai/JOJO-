@@ -97,3 +97,14 @@ alert("🎉 Congratulations!\n\nYou won ₹150 OFF Coupon.");
 }
 
 }
+function openLogin(){
+
+document.getElementById("loginModal").style.display="flex";
+
+}
+
+function closeLogin(){
+
+document.getElementById("loginModal").style.display="none";
+
+}
