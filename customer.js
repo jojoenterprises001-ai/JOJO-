@@ -78,3 +78,22 @@ const ownerNumber="919999999999";
 window.open(`https://wa.me/${ownerNumber}?text=${message}`,"_blank");
 
 });
+let stamps = 0;
+
+function addStamp(){
+
+if(total>=250 && stamps<7){
+
+stamps++;
+
+document.getElementById("s"+stamps).innerHTML="✔";
+
+}
+
+if(stamps==7){
+
+alert("🎉 Congratulations!\n\nYou won ₹150 OFF Coupon.");
+
+}
+
+}
