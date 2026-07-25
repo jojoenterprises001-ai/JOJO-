@@ -28,7 +28,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 </div>
 
-<div class="dots">
+<div class="dots" onclick="openLogin()">
+
+⋮
+
+</div>
 
 ⋮
 
@@ -215,7 +219,33 @@ Tic Tac Toe
 </button>
 
 </section>
+<div id="loginModal" class="modal">
 
+<div class="modal-box">
+
+<h2>Management Login</h2>
+
+<button onclick="location.href='owner.html'">
+
+Cafe Partner
+
+</button>
+
+<button onclick="location.href='admin.html'">
+
+Super Admin
+
+</button>
+
+<button onclick="closeLogin()">
+
+Close
+
+</button>
+
+</div>
+
+</div>
 <script src="js/customer.js"></script>
 
 </body>
